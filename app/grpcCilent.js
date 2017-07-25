@@ -1,4 +1,4 @@
-var PROTO_FILE_PATH = "E:/webstorm_workspace/grpc_demo/proto/Student.proto";
+var PROTO_FILE_PATH = "/Users/yinhao/WebstormProjects/node_grpc/proto/Student.proto";
 
 var grpc = require("grpc");
 
