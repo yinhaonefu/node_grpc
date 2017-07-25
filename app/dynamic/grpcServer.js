@@ -1,3 +1,4 @@
+// 动态生成桩代码服务端示例 可以右键执行，也可以在命令行使用 node grpcServer.js执行
 var PROTO_FILE_PATH = "E:/webstorm_workspace/grpc_demo/proto/Student.proto";
 
 var grpc = require("grpc");
