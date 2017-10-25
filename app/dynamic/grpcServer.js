@@ -8,6 +8,7 @@ var grpcService = grpc.load(PROTO_FILE_PATH).com.shengsiyuan.proto;
 var server = new grpc.Server();
 
 server.addService(grpcService.StudentService.service,{
+    //方法的映射 客户端调用冒号前的方法名，会使用冒号后的具体方法处理
     getRealNameByUsername: getRealNameByUsername,
     getStudentByAge:getStudentByAge,
     getStudentWrapper:getStudentWrapper,
